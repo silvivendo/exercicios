@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+
+
+
+    
+
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+<p>
+    <strong>&lt; OL &gt; Order List  </strong> <br>
+</p>
+    <p>
+        <strong>&lt; LI &gt;  List Item</strong> <br>
+        para criar vários &lt; li &gt; de uma só vez, escrever -- li*9 --  LI+asterisco+número de vezes  
+   </p>
+   <br>
+<h2>Listas Ordenadas / Order List</h2> 
+são aquelas que a ordem faz a diferença
+    
+<ol>
+    <style> 
+        ol {
+            list-style-type:lower-alpha;
+       }
+    </style>
+
+    <li>Acordar
+   <li> tomar café
+    <li>escovar os dentes
+    <li>ligas para o joao
+</ol>
+<p> a enumeraçao foi mudada no head usando CSS style</p>
+
+<h2>Listas não ordenadas</h2> sao aquelas que nao precisa de uma enumeraçao, nao importando onde esta o item.   
+UL unnorded list. 
+
+<p>
+    <strong>&lt; UL &gt; Unordered List  </strong> <br>
+</p>
+
+para alterar o -type- do UL, por exemplo de square para circle, usando css style 
+
+<p>
+    
+    <pre>
+        
+                -style
+                    ol {
+                        list-style-type:square
+                       }
+                -style-
+    </pre>
+     
+</p>
+
+
+<ul >
+
+    <style> 
+        ul {
+            list-style-type: square
+       }
+    </style>
+
+<li> Pao
+<li>leite 
+<li>tomate
+<li>alface
+ <li>manteiga</li>
+ <li>arroz</li>
+<li>feijao</li>   
+</ul>
+
+
+<h2> Juntando listas v.1.0</h2>
+
+<h3> minhas linguagens favoritas</h2>
+<ol>
+    <li>Antigas</li>
+
+    <style> 
+        ol ol {
+            list-style-type: lower-greek;
+       }
+    </style>
+    <ol>
+        
+        <li>Cliper
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+
+    </ol>
+
+<li>Novas</li>
+
+
+<ol>
+
+    <li>PHP</li>
+    <li>python</li>
+    <li>JavaScript</li>
+    <li>Kotlin</li>
+
+</ol> 
+
+
+<h2>Meus jogos favoritos</h2>
+
+<style> 
+    ol ol  {
+        list-style-type: lower-latin
+   }
+</style>
+
+<ol>
+    <li>NES</li>
+    <ul>
+        <li>Mario Bros</li>
+        Ninja Gaiden
+
+    </ul>
+    <li>SNES</li>
+    <ul>
+        <li> Mario</li>
+        <li>Donkey Kong</li>
+        </ul>
+    <li>PlayStation</li>
+    <ul>
+    <li>Final Fantasy</li>
+    <li>Castlevania</li>
+    </ul>
+
+    <h2>Lista de Definiçao</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcaçao apra a criaçao do conteudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcaçao para a criaçao do designe de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programca'do para a criaçao de interatividade de um site.</dd>
+    </dl>
+    
+    
+
+
+</html>
+</body>
