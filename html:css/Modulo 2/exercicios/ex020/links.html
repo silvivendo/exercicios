@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover{
+            color: darkmagenta;
+            text-decoration: line-through;
+        }
+        a:active {
+            color: green;
+        }
+
+        .especial::before {
+            content: "<-";
+        }
+
+        .especial::after{
+            content: ' >>>>';
+        }
+
+        p::selection{
+            background-color:orange;
+        }
+
+    </style>
+</head>
+<body>
+    <li><a href="https://github.com/silvivendo?tab=repositories" target="blank">Repositório GitHub</a></li>
+    <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" class="especial">Canal do Youtube</a></li>
+    <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Site do W3S</a></li>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ipsa quod nobis itaque consequatur magni omnis minima optio eos dicta reiciendis sunt eius beatae voluptas, obcaecati eligendi tempore incidunt molestiae!</p>
+</body>
+</html>
