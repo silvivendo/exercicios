@@ -20,6 +20,7 @@
         nav{
             background-color: darkblue;
             padding: 3px;
+            box-shadow: 2px 3px 4px 1px #7472e8
         }
         nav > a {
             text-decoration: none;
@@ -33,21 +34,37 @@
             background-color: white;
             padding: 10px;
             margin: 20px;
+            border-radius: 10px ;
         }
         article{
             background-color: lightgray;
         }
         article > aside {
             background-color: rgb(166, 170, 169);
+            text-align: right;
         }
         footer{
             background-color: rgba(39, 6, 223, 0.589);
             color: white;
             font-weight: bold;
-            text-align: right;
+            text-align: center;
             padding: 1px;
             margin: 0px;
+            box-shadow: -1px 4px 4px 1px #0707075d;
             
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+           margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            
+
         }
 
     </style>
@@ -79,5 +96,6 @@
     <footer>
         <p>desenvolvido por silvia</p>
     </footer>
+    <div id="bola"></div>
 </body>
 </html>
