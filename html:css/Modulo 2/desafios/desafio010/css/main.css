@@ -1,0 +1,115 @@
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format ('opentype');
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #063D1E;
+}
+
+body {
+    font-family: idroid;
+  background-color: #3DDC84;
+  margin: 0;
+}
+
+
+.conteudo{
+  background-image: linear-gradient(180deg,  #3DDC84, #2FAB66, #063D1E);
+  padding: 2em 1em 0 1em;
+  box-shadow: .7em 0.6em 1em rgba(0, 0, 0, 0.466);
+}
+
+#main-title {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+p#main-p {
+  color: white;
+  text-align: center;
+}
+
+nav > a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1em;
+  
+}
+
+nav> a:visited {
+  color: white;
+}
+
+.container {
+    background-color: white;
+    margin: 0px 7em ;
+    padding:  1em ;
+box-shadow: .7em 0.6em 1em rgba(0, 0, 0, 0.466);
+}
+
+.container > h1 {
+    color: #063D1E;
+    text-transform: uppercase;
+
+}
+
+.container > h2 {
+    color: #063D1E;
+    background-image: linear-gradient(45deg,  #83E1AD,  #C5EBD6, white );
+}
+
+.bugdroid {
+text-align: center;
+}
+
+.video {
+    background-color: #063D1E;
+    margin: 0px 7em ;
+    padding:  1em;
+    text-align: center;
+}
+
+.furmore {
+    background-color: white;
+    margin: 0px 7em ;
+    padding:  1em;
+    
+}
+
+.othertopics{
+    background-color: #C5EBD6;
+    border-radius: 1.5em;
+    padding: 0 1em 1em ;
+}
+
+.othertopics > h3 {
+    background-color: #2FAB66;
+    color: white;
+    padding: 1em;
+    border-radius: 1.5em 1.5em 0 0 ;
+    
+    
+}
+
+.othertopics > ul {
+list-style: none;
+display: inline-block;
+display: conte;
+}
+
+.othertopics > ul::before {
+    content: ;&#10004
+
+}
+
+footer {
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+body
+{
+    background-color: #3DDC84;
+    margin: 0;
+
+   .main {
+       background-image: linear-gradient(180deg, #2FAB66, #063D1E);
+       padding: 2em;
+
+       #main-title {
+           text-transform: uppercase;
+           color: white;
+           text-align: center;
+       }
+
+       p#main-p {
+           color: white;
+           text-align: center;
+        }
+        div.navbar {
+            color: white;
+            font-weight: bold;
+           
+             #bar {
+                
+                text-decoration: none;
+                list-style-type: none;
+              
+                 }
+                a:visited {
+                    color: rgb(255, 255, 255);
+                }
+            
+                
+            }
+        }
+
+    }
+
+
+} 
